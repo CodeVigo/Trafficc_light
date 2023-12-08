@@ -1,0 +1,170 @@
+#panel{
+    height: 300px;
+    width: 100px;
+    background-color: #71797E;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 15px;
+    /* background-image: url(bardy.jpeg); */
+    background-size: cover;
+
+
+}
+
+#red{
+    margin-left: 25%;
+    margin-right: 30%;
+    background-color: rgba(255, 0, 0, 0.2);
+    height: 50px;border-radius: 15%;
+    width: 50px;
+    margin-top: 25%;
+    border-radius: 50%;
+    /* background-image: url(dang.jpeg); */
+    background-size: cover;
+    animation: vigo1 01s ease-in 0.1s 1 ;
+    
+
+}
+
+#red:hover{
+    background-image: url(dang.jpeg);
+}
+@keyframes vigo1{
+    from{background-color: rgb(240, 158, 158) }
+    to{background-color: red}
+}
+
+#orange{
+    margin-left: 25%;
+    margin-right: 30%;
+    background-color: rgba(255, 165, 0,0.2);
+    height: 50px;
+    width: 50px;
+    margin-top: 35%;
+    border-radius: 50%;
+    /* background-image: url(ready.jpeg); */
+    background-size: cover;
+    animation: vigo 01s ease-out 2s 1 ;
+
+
+}
+#orange:hover{
+    background-image: url(ready.jpeg);
+}
+
+#green:hover{
+    background-image: url(green.png);
+}
+
+@keyframes vigo{
+    from{background-color: rgb(230, 217, 195) }
+    to{background-color: orange }
+}
+
+#green{
+    margin-left: 25%;
+    margin-right: 30%;
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    margin-top: 35%;
+    border-radius: 50%;
+    /* background-image: url(green.png); */
+    background-size: cover;
+    animation: vigo2 01s ease-out 3s 1 ;
+
+
+
+}
+
+@keyframes vigo2{
+    from{background-color: rgb(161, 250, 161) }
+    to{background-color: green}
+}
+
+#stand{
+    height: 250px;
+    width: 15px;
+    background-color: #71797E;
+    margin-left: 45px;
+    
+}
+
+#base{
+    height: 15px;
+    width: 40px;
+    background-color: #71797E;
+    margin-left: 32px;
+}
+
+#base2{
+    height: 30px;
+    width: 80px;
+    background-color: #71797E;
+    margin-left: 12px;
+}
+
+
+/* #panel{
+    height: 100px;
+    width: 300px;
+    background-color: #71797E;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 15px;
+    margin-top: 25px;
+    display: inline-block;
+
+}
+
+#red{
+    margin-left: 29px;
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    margin-top: 22px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#orange{
+     margin-left: 29px;
+    margin-right: 28px; 
+    background-color: orange;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+    display: inline-block;
+}
+
+#green{
+  
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+
+#stand{
+    height: 250px;
+    width: 15px;
+    background-color: #71797E;
+    margin-left: 45px;
+}
+
+#base{
+    height: 15px;
+    width: 40px;
+    background-color: #71797E;
+    margin-left: 32px;
+}
+
+#base2{
+    height: 30px;
+    width: 80px;
+    background-color: #71797E;
+    margin-left: 12px;
+} */
